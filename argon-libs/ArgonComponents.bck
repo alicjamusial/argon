@@ -1,0 +1,27 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 93LCxxA
+D Serial EEPROM, 93 Series, 2.5V, DIP-8/SOIC-8
+K EEPROM memory Microwire
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20001749K.pdf
+$ENDCMP
+#
+$CMP 93LCxxB
+D Serial EEPROM, 93 Series, 2.5V, DIP-8/SOIC-8
+K EEPROM memory Microwire
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20001749K.pdf
+$ENDCMP
+#
+$CMP USB_B_Micro
+D USB Micro Type B connector
+K connector USB micro
+F ~
+$ENDCMP
+#
+$CMP USB_B_Mini_copy
+D USB Mini Type B connector
+K connector USB mini
+F ~
+$ENDCMP
+#
+#End Doc Library

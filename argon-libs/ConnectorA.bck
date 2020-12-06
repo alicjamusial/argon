@@ -1,5 +1,17 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP 4P2C
+D RJ connector, 4P2C (4 positions 2 connected)
+K 4P2C RJ female connector
+F ~
+$ENDCMP
+#
+$CMP 4P2C_Shielded
+D RJ connector, 4P2C (4 positions 2 connected), Shielded
+K 4P2C RJ female connector
+F ~
+$ENDCMP
+#
 $CMP 4P4C
 D RJ connector, 4P4C (4 positions 4 connected), RJ9/RJ10/RJ22
 K 4P4C RJ female connector
