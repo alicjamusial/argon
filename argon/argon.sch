@@ -354,4 +354,15 @@ F 3 "~" H 2950 4450 50  0001 C CNN
 	1    2950 4450
 	0    1    1    0   
 $EndComp
+$Comp
+L Timer:NE555D U?
+U 1 1 5FD5C58C
+P 8750 2050
+F 0 "U?" H 8750 2631 50  0000 C CNN
+F 1 "NE555D" H 8750 2540 50  0000 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 9600 1650 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/ne555.pdf" H 9600 1650 50  0001 C CNN
+	1    8750 2050
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
