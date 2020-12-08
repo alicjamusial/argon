@@ -14,8 +14,6 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 Wire Wire Line
-	4500 2550 4050 2550
-Wire Wire Line
 	2300 2650 3750 2650
 NoConn ~ 2300 2750
 $Comp
@@ -29,8 +27,6 @@ F 3 "~" H 4150 4850 50  0001 C CNN
 	1    4150 4850
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	4500 5050 4150 5050
 Wire Wire Line
 	4150 5050 4150 5000
 $Comp
@@ -55,8 +51,6 @@ F 3 "~" H 3700 4650 50  0001 C CNN
 	1    3700 4650
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	4150 4650 4500 4650
 Wire Wire Line
 	4150 4650 4150 4700
 Wire Wire Line
@@ -89,23 +83,6 @@ F 3 "" H 3000 5050 50  0001 C CNN
 	1    3000 5050
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 5FCF790D
-P 4250 5350
-F 0 "#PWR?" H 4250 5100 50  0001 C CNN
-F 1 "GND" H 4255 5177 50  0000 C CNN
-F 2 "" H 4250 5350 50  0001 C CNN
-F 3 "" H 4250 5350 50  0001 C CNN
-	1    4250 5350
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4500 5250 4250 5250
-Wire Wire Line
-	4250 5250 4250 5350
-Wire Wire Line
-	5300 5650 5300 5850
 Wire Wire Line
 	6150 5850 6150 5950
 $Comp
@@ -121,54 +98,25 @@ F 3 "" H 6150 5950 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	5300 5850 5400 5850
-$Comp
-L Interface_USB:FT2232HL U?
-U 1 1 5FC7546A
-P 5700 3450
-F 0 "U?" H 5700 5831 50  0000 C CNN
-F 1 "FT2232HL" H 5700 5740 50  0000 C CNN
-F 2 "Package_QFP:LQFP-64_10x10mm_P0.5mm" H 5700 3450 50  0001 C CNN
-F 3 "https://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT2232H.pdf" H 5700 3450 50  0001 C CNN
-	1    5700 3450
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6000 5850 6000 5650
 Connection ~ 6000 5850
 Wire Wire Line
 	6000 5850 6150 5850
-Wire Wire Line
-	5900 5650 5900 5850
 Connection ~ 5900 5850
 Wire Wire Line
 	5900 5850 6000 5850
-Wire Wire Line
-	5800 5850 5800 5650
 Connection ~ 5800 5850
 Wire Wire Line
 	5800 5850 5900 5850
-Wire Wire Line
-	5700 5850 5700 5650
 Connection ~ 5700 5850
 Wire Wire Line
 	5700 5850 5800 5850
-Wire Wire Line
-	5100 5650 5100 5850
-Wire Wire Line
-	5100 5850 5300 5850
 Connection ~ 5300 5850
 Connection ~ 5400 5850
 Wire Wire Line
 	5400 5850 5500 5850
-Wire Wire Line
-	5400 5650 5400 5850
-Wire Wire Line
-	5500 5650 5500 5850
 Connection ~ 5500 5850
 Wire Wire Line
 	5500 5850 5600 5850
-Wire Wire Line
-	5600 5650 5600 5850
 Connection ~ 5600 5850
 Wire Wire Line
 	5600 5850 5700 5850
@@ -185,8 +133,6 @@ F 3 "~" H 3900 2650 50  0001 C CNN
 	1    3900 2650
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	4050 2650 4500 2650
 $Comp
 L Device:R R?
 U 1 1 5FD08843
@@ -259,12 +205,8 @@ Wire Wire Line
 	2500 4250 2950 4250
 Connection ~ 2950 4250
 Wire Wire Line
-	2950 4250 4500 4250
-Wire Wire Line
 	2500 4150 3350 4150
 Connection ~ 3350 4150
-Wire Wire Line
-	3350 4150 4500 4150
 Wire Wire Line
 	2950 3700 2950 3650
 $Comp
@@ -340,8 +282,6 @@ Wire Wire Line
 	3350 4450 3350 4350
 Connection ~ 3350 4350
 Wire Wire Line
-	3350 4350 4500 4350
-Wire Wire Line
 	3100 4450 3350 4450
 $Comp
 L Device:R R?
@@ -354,4 +294,240 @@ F 3 "~" H 2950 4450 50  0001 C CNN
 	1    2950 4450
 	0    1    1    0   
 $EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5FD01097
+P 9250 2050
+F 0 "#PWR?" H 9250 1800 50  0001 C CNN
+F 1 "GND" H 9255 1877 50  0000 C CNN
+F 2 "" H 9250 2050 50  0001 C CNN
+F 3 "" H 9250 2050 50  0001 C CNN
+	1    9250 2050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9250 2050 9250 1800
+Text GLabel 9200 850  0    50   Input ~ 0
+VCC
+Wire Wire Line
+	9250 1000 9250 850 
+Wire Wire Line
+	9250 850  9200 850 
+Wire Wire Line
+	8750 1600 8600 1600
+Text GLabel 8600 1600 0    50   Input ~ 0
+VCC
+Wire Wire Line
+	8750 1200 8550 1200
+$Comp
+L Device:R R?
+U 1 1 5FD07F51
+P 8150 1000
+F 0 "R?" V 8100 800 50  0000 C CNN
+F 1 "1.5K" V 8100 1200 50  0000 C CNN
+F 2 "" V 8080 1000 50  0001 C CNN
+F 3 "~" H 8150 1000 50  0001 C CNN
+	1    8150 1000
+	0    1    1    0   
+$EndComp
+Text GLabel 7700 1000 0    50   Input ~ 0
+VCC
+Wire Wire Line
+	7700 1000 8000 1000
+Wire Wire Line
+	8300 1000 8550 1000
+Wire Wire Line
+	8550 1000 8550 1200
+Connection ~ 8550 1200
+Wire Wire Line
+	8550 1200 7700 1200
+Wire Wire Line
+	9750 1200 9950 1200
+$Comp
+L Device:R R?
+U 1 1 5FD0F4C8
+P 10100 1200
+F 0 "R?" V 10050 1000 50  0000 C CNN
+F 1 "330" V 10050 1400 50  0000 C CNN
+F 2 "" V 10030 1200 50  0001 C CNN
+F 3 "~" H 10100 1200 50  0001 C CNN
+	1    10100 1200
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5FD12DCE
+P 10650 1200
+F 0 "D?" H 10643 945 50  0000 C CNN
+F 1 "LED" H 10643 1036 50  0000 C CNN
+F 2 "" H 10650 1200 50  0001 C CNN
+F 3 "~" H 10650 1200 50  0001 C CNN
+	1    10650 1200
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	10500 1200 10250 1200
+Wire Wire Line
+	10800 1200 11000 1200
+Wire Wire Line
+	11000 1200 11000 1350
+$Comp
+L power:GND #PWR?
+U 1 1 5FD1734B
+P 11000 1350
+F 0 "#PWR?" H 11000 1100 50  0001 C CNN
+F 1 "GND" H 11005 1177 50  0000 C CNN
+F 2 "" H 11000 1350 50  0001 C CNN
+F 3 "" H 11000 1350 50  0001 C CNN
+	1    11000 1350
+	1    0    0    -1  
+$EndComp
+Text GLabel 9600 1950 0    50   Input ~ 0
+VCC
+$Comp
+L Device:R R?
+U 1 1 5FD198B0
+P 9950 1950
+F 0 "R?" V 10000 2150 50  0000 C CNN
+F 1 "100K" V 10000 1750 50  0000 C CNN
+F 2 "" V 9880 1950 50  0001 C CNN
+F 3 "~" H 9950 1950 50  0001 C CNN
+	1    9950 1950
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9800 1950 9600 1950
+Wire Wire Line
+	11000 1950 11000 2100
+$Comp
+L power:GND #PWR?
+U 1 1 5FD2B388
+P 11000 2100
+F 0 "#PWR?" H 11000 1850 50  0001 C CNN
+F 1 "GND" H 11005 1927 50  0000 C CNN
+F 2 "" H 11000 2100 50  0001 C CNN
+F 3 "" H 11000 2100 50  0001 C CNN
+	1    11000 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP1 C?
+U 1 1 5FD26B57
+P 10700 1950
+F 0 "C?" V 10750 1800 50  0000 C CNN
+F 1 "1uF" V 10650 1800 50  0000 C CNN
+F 2 "" H 10700 1950 50  0001 C CNN
+F 3 "~" H 10700 1950 50  0001 C CNN
+	1    10700 1950
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	10300 1950 10300 1600
+Wire Wire Line
+	10300 1600 9750 1600
+Connection ~ 10300 1950
+Wire Wire Line
+	10300 1950 10100 1950
+Wire Wire Line
+	10850 1950 11000 1950
+Wire Wire Line
+	8750 1400 8300 1400
+$Comp
+L Device:C C?
+U 1 1 5FD3F185
+P 8150 1400
+F 0 "C?" V 8100 1500 50  0000 C CNN
+F 1 "10uF" V 8200 1550 50  0000 C CNN
+F 2 "" H 8188 1250 50  0001 C CNN
+F 3 "~" H 8150 1400 50  0001 C CNN
+	1    8150 1400
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7700 1400 7700 1500
+Wire Wire Line
+	7700 1400 8000 1400
+$Comp
+L power:GND #PWR?
+U 1 1 5FD44B22
+P 7700 1500
+F 0 "#PWR?" H 7700 1250 50  0001 C CNN
+F 1 "GND" H 7705 1327 50  0000 C CNN
+F 2 "" H 7700 1500 50  0001 C CNN
+F 3 "" H 7700 1500 50  0001 C CNN
+	1    7700 1500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9750 1400 10500 1400
+Connection ~ 10500 1950
+Wire Wire Line
+	10550 1950 10500 1950
+Wire Wire Line
+	10300 1950 10500 1950
+Wire Wire Line
+	10500 1400 10500 1950
+$Comp
+L Timer:LMC555xM U?
+U 1 1 5FCFE940
+P 9250 1400
+F 0 "U?" H 9550 1750 50  0000 C CNN
+F 1 "LMC555xM" H 9500 1050 50  0000 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 10100 1000 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lmc555.pdf" H 10100 1000 50  0001 C CNN
+	1    9250 1400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4050 2650 4500 2650
+Wire Wire Line
+	4500 2550 4050 2550
+Wire Wire Line
+	3350 4150 4500 4150
+Wire Wire Line
+	2950 4250 4500 4250
+Wire Wire Line
+	3350 4350 4500 4350
+Wire Wire Line
+	6000 5850 6000 5650
+Wire Wire Line
+	5400 5650 5400 5850
+Wire Wire Line
+	5900 5650 5900 5850
+Wire Wire Line
+	5800 5850 5800 5650
+Wire Wire Line
+	4500 5050 4150 5050
+Wire Wire Line
+	5700 5850 5700 5650
+Wire Wire Line
+	4150 4650 4500 4650
+Wire Wire Line
+	5600 5650 5600 5850
+Wire Wire Line
+	4500 5250 4400 5250
+Wire Wire Line
+	5500 5650 5500 5850
+Wire Wire Line
+	5100 5650 5100 5850
+Wire Wire Line
+	5300 5650 5300 5850
+$Comp
+L Interface_USB:FT2232HL U?
+U 1 1 5FC7546A
+P 5700 3450
+F 0 "U?" H 5700 5831 50  0000 C CNN
+F 1 "FT2232HL" H 5700 5740 50  0000 C CNN
+F 2 "Package_QFP:LQFP-64_10x10mm_P0.5mm" H 5700 3450 50  0001 C CNN
+F 3 "https://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT2232H.pdf" H 5700 3450 50  0001 C CNN
+	1    5700 3450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4400 5850 5100 5850
+Wire Wire Line
+	4400 5250 4400 5850
+Connection ~ 5100 5850
+Wire Wire Line
+	5100 5850 5300 5850
 $EndSCHEMATC
