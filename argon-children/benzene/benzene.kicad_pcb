@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 10)
+    (drawings 12)
     (tracks 108)
     (zones 0)
     (modules 19)
@@ -18,8 +18,8 @@
   )
 
   (layers
-    (0 F.Cu signal hide)
-    (31 B.Cu signal hide)
+    (0 F.Cu signal)
+    (31 B.Cu signal)
     (32 B.Adhes user hide)
     (33 F.Adhes user hide)
     (34 B.Paste user hide)
@@ -28,7 +28,7 @@
     (37 F.SilkS user)
     (38 B.Mask user hide)
     (39 F.Mask user hide)
-    (40 Dwgs.User user hide)
+    (40 Dwgs.User user)
     (41 Cmts.User user hide)
     (42 Eco1.User user hide)
     (43 Eco2.User user hide)
@@ -147,7 +147,7 @@
   )
 
   (module benzene:type (layer F.Cu) (tedit 0) (tstamp 5FD5D20A)
-    (at 90.861 70.06499)
+    (at 90.353 70.06499)
     (fp_text reference G*** (at 0 0) (layer F.SilkS) hide
       (effects (font (size 1.524 1.524) (thickness 0.3)))
     )
@@ -312,7 +312,7 @@
   )
 
   (module benzene:author (layer B.Cu) (tedit 0) (tstamp 5FD5CFC6)
-    (at 115.118 71.20799 180)
+    (at 115.499 71.20799 180)
     (fp_text reference G*** (at 0 0) (layer B.SilkS) hide
       (effects (font (size 1.524 1.524) (thickness 0.3)) (justify mirror))
     )
@@ -390,11 +390,11 @@
   )
 
   (module benzene:logo-wlasciwe (layer F.Cu) (tedit 0) (tstamp 5FD5CB4D)
-    (at 114.864 72.47799)
+    (at 115.118 72.73199)
     (fp_text reference G*** (at 0 0) (layer F.SilkS) hide
       (effects (font (size 1.524 1.524) (thickness 0.3)))
     )
-    (fp_text value LOGO (at 0.75 0) (layer F.SilkS) hide
+    (fp_text value LOGO (at 1.016 0) (layer F.SilkS) hide
       (effects (font (size 1.524 1.524) (thickness 0.3)))
     )
     (fp_poly (pts (xy 1.54156 -2.678252) (xy 1.703347 -2.584854) (xy 1.853637 -2.498061) (xy 1.992833 -2.417634)
@@ -1480,10 +1480,34 @@
     )
   )
 
-  (gr_line (start 118.364 68.58) (end 87.884 68.58) (layer Edge.Cuts) (width 0.05) (tstamp 5FD50C6F))
-  (gr_line (start 118.364 84.836) (end 118.364 68.58) (layer Edge.Cuts) (width 0.05))
-  (gr_line (start 87.884 84.836) (end 118.364 84.836) (layer Edge.Cuts) (width 0.05))
-  (gr_line (start 87.884 68.58) (end 87.884 84.836) (layer Edge.Cuts) (width 0.05))
+  (dimension 31.48 (width 0.15) (layer Dwgs.User)
+    (gr_text "31.480 mm" (at 103.124 89.01799) (layer Dwgs.User)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (feature1 (pts (xy 118.864 84.836) (xy 118.864 88.304411)))
+    (feature2 (pts (xy 87.384 84.836) (xy 87.384 88.304411)))
+    (crossbar (pts (xy 87.384 87.71799) (xy 118.864 87.71799)))
+    (arrow1a (pts (xy 118.864 87.71799) (xy 117.737496 88.304411)))
+    (arrow1b (pts (xy 118.864 87.71799) (xy 117.737496 87.131569)))
+    (arrow2a (pts (xy 87.384 87.71799) (xy 88.510504 88.304411)))
+    (arrow2b (pts (xy 87.384 87.71799) (xy 88.510504 87.131569)))
+  )
+  (dimension 16.256 (width 0.15) (layer Dwgs.User)
+    (gr_text "16.256 mm" (at 125.435 76.708 90) (layer Dwgs.User)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (feature1 (pts (xy 118.864 68.58) (xy 124.721421 68.58)))
+    (feature2 (pts (xy 118.864 84.836) (xy 124.721421 84.836)))
+    (crossbar (pts (xy 124.135 84.836) (xy 124.135 68.58)))
+    (arrow1a (pts (xy 124.135 68.58) (xy 124.721421 69.706504)))
+    (arrow1b (pts (xy 124.135 68.58) (xy 123.548579 69.706504)))
+    (arrow2a (pts (xy 124.135 84.836) (xy 124.721421 83.709496)))
+    (arrow2b (pts (xy 124.135 84.836) (xy 123.548579 83.709496)))
+  )
+  (gr_line (start 118.864 68.58) (end 87.384 68.58) (layer Edge.Cuts) (width 0.05) (tstamp 5FD50C6F))
+  (gr_line (start 118.864 84.836) (end 118.864 68.58) (layer Edge.Cuts) (width 0.05))
+  (gr_line (start 87.384 84.836) (end 118.864 84.836) (layer Edge.Cuts) (width 0.05))
+  (gr_line (start 87.384 68.58) (end 87.384 84.836) (layer Edge.Cuts) (width 0.05))
   (gr_text 3V3 (at 114.808 78.994) (layer F.SilkS) (tstamp 5FD504AF)
     (effects (font (size 0.8 0.8) (thickness 0.15)) (justify left))
   )
@@ -1623,7 +1647,7 @@
     )
     (filled_polygon
       (pts
-        (xy 117.704 84.176) (xy 107.854211 84.176) (xy 107.929226 83.994898) (xy 107.969 83.794939) (xy 107.969 83.673999)
+        (xy 118.204 84.176) (xy 107.854211 84.176) (xy 107.929226 83.994898) (xy 107.969 83.794939) (xy 107.969 83.673999)
         (xy 111.063193 83.673999) (xy 111.097491 83.677377) (xy 111.131789 83.673999) (xy 111.1318 83.673999) (xy 111.234421 83.663892)
         (xy 111.366088 83.623951) (xy 111.487434 83.55909) (xy 111.593794 83.471802) (xy 111.615666 83.445151) (xy 112.365302 82.695517)
         (xy 112.402645 82.729178) (xy 112.652748 82.878157) (xy 112.927109 82.975481) (xy 113.157 82.854814) (xy 113.157 81.661)
@@ -1696,7 +1720,7 @@
         (xy 90.233501 80.980298) (xy 90.2335 82.769701) (xy 90.230122 82.804) (xy 90.2335 82.838298) (xy 90.2335 82.838308)
         (xy 90.243607 82.940929) (xy 90.27504 83.044548) (xy 90.283549 83.072598) (xy 90.348409 83.193943) (xy 90.413826 83.273653)
         (xy 90.413829 83.273656) (xy 90.435697 83.300302) (xy 90.462344 83.322171) (xy 91.302829 84.162657) (xy 91.313779 84.176)
-        (xy 88.544 84.176) (xy 88.544 69.24) (xy 117.704001 69.24)
+        (xy 88.044 84.176) (xy 88.044 69.24) (xy 118.204001 69.24)
       )
     )
     (filled_polygon
