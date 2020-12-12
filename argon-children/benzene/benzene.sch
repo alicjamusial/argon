@@ -253,10 +253,7 @@ F 3 "~" H 7600 5850 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	7450 5850 7250 5850
-Wire Wire Line
-	7050 1750 7050 1550
-Connection ~ 7050 1750
-Text GLabel 7050 1550 1    50   Input ~ 0
+Text GLabel 6750 1850 2    50   Input ~ 0
 ~CS
 $Comp
 L Device:R R6
@@ -307,7 +304,7 @@ U 1 1 5FD3E29C
 P 5850 5350
 F 0 "U4" H 5550 5700 50  0000 C CNN
 F 1 "LMC555" H 6050 5700 50  0000 C CNN
-F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 6700 4950 50  0001 C CNN
+F 2 "Package_SO:VSSOP-8_3.0x3.0mm_P0.65mm" H 6700 4950 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/lmc555.pdf" H 6700 4950 50  0001 C CNN
 	1    5850 5350
 	1    0    0    -1  
@@ -378,4 +375,51 @@ Connection ~ 4650 3550
 Wire Wire Line
 	7200 3550 7050 3550
 Connection ~ 7050 3550
+Wire Wire Line
+	6750 1850 6650 1850
+Connection ~ 6650 1850
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 5FD67913
+P 10500 5150
+F 0 "H1" H 10600 5196 50  0000 L CNN
+F 1 "MountingHole" H 10600 5105 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 10500 5150 50  0001 C CNN
+F 3 "~" H 10500 5150 50  0001 C CNN
+	1    10500 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 5FD67E8D
+P 10500 5400
+F 0 "H2" H 10600 5446 50  0000 L CNN
+F 1 "MountingHole" H 10600 5355 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 10500 5400 50  0001 C CNN
+F 3 "~" H 10500 5400 50  0001 C CNN
+	1    10500 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H3
+U 1 1 5FD680BA
+P 10500 5650
+F 0 "H3" H 10600 5696 50  0000 L CNN
+F 1 "MountingHole" H 10600 5605 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 10500 5650 50  0001 C CNN
+F 3 "~" H 10500 5650 50  0001 C CNN
+	1    10500 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H4
+U 1 1 5FD681EC
+P 10500 5900
+F 0 "H4" H 10600 5946 50  0000 L CNN
+F 1 "MountingHole" H 10600 5855 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 10500 5900 50  0001 C CNN
+F 3 "~" H 10500 5900 50  0001 C CNN
+	1    10500 5900
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
