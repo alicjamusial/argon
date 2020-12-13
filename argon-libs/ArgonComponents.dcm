@@ -1,5 +1,11 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP 3xV3V3-GND
+D Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)
+K connector
+F ~
+$ENDCMP
+#
 $CMP 93LCxxA
 D Serial EEPROM, 93 Series, 2.5V, DIP-8/SOIC-8
 K EEPROM memory Microwire
@@ -27,6 +33,12 @@ $ENDCMP
 $CMP USB_B_Mini_copy
 D USB Mini Type B connector
 K connector USB mini
+F ~
+$ENDCMP
+#
+$CMP V3V3-GND
+D Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)
+K connector
 F ~
 $ENDCMP
 #
