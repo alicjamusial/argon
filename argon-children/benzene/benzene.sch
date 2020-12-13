@@ -25,7 +25,7 @@ U 1 1 5FD288AE
 P 5850 2500
 F 0 "U2" H 5800 2850 50  0000 L CNN
 F 1 "SPI FLASH" H 5650 2250 50  0000 L CNN
-F 2 "Package_DIP:DIP-8_W7.62mm_Socket" H 5850 1900 50  0001 C CNN
+F 2 "benzene:DIP-8_W7.62mm_Socket" H 5850 1900 50  0001 C CNN
 F 3 "http://www.macronix.com/Lists/Datasheet/Attachments/7534/MX25R3235F,%20Wide%20Range,%2032Mb,%20v1.6.pdf" H 5850 2500 50  0001 C CNN
 	1    5850 2500
 	-1   0    0    -1  
