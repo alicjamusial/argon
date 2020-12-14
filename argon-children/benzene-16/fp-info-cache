@@ -1,4 +1,4 @@
-18639711372017351
+18641319351926908
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -82053,6 +82053,13 @@ THT DIP DIL PDIP 2.54mm 7.62mm 300mil Socket
 0
 8
 8
+benzene
+DIP-16_W15.24mm
+24-lead though-hole mounted DIP package, row spacing 15.24 mm (600 mils)
+THT DIP DIL PDIP 2.54mm 15.24mm 600mil
+0
+16
+16
 benzene
 author
 

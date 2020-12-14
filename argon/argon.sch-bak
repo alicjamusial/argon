@@ -689,7 +689,7 @@ U 1 1 5FD86E45
 P 7800 2850
 F 0 "S3" H 7978 2851 50  0000 L CNN
 F 1 "Connector8" H 7978 2760 50  0000 L CNN
-F 2 "Connector_PinHeader_1.27mm:PinHeader_1x08_P1.27mm_Vertical" H 7775 3525 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical" H 7775 3525 50  0001 C CNN
 F 3 "" H 7775 3525 50  0001 C CNN
 	1    7800 2850
 	0    -1   -1   0   
@@ -700,7 +700,7 @@ U 1 1 5FD8726C
 P 7800 1050
 F 0 "S1" H 7978 1051 50  0000 L CNN
 F 1 "Connector8" H 7978 960 50  0000 L CNN
-F 2 "Connector_PinHeader_1.27mm:PinHeader_1x08_P1.27mm_Vertical" H 7775 1725 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical" H 7775 1725 50  0001 C CNN
 F 3 "" H 7775 1725 50  0001 C CNN
 	1    7800 1050
 	0    -1   -1   0   
@@ -735,7 +735,7 @@ U 1 1 5FDC6D2C
 P 8500 1850
 F 0 "S2" H 8828 1851 50  0000 L CNN
 F 1 "Connector8_FTDI" H 8828 1760 50  0000 L CNN
-F 2 "" H 8475 2525 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical" H 8475 2525 50  0001 C CNN
 F 3 "" H 8475 2525 50  0001 C CNN
 	1    8500 1850
 	1    0    0    -1  
@@ -746,7 +746,7 @@ U 1 1 5FDC8DF4
 P 8500 3650
 F 0 "S4" H 8828 3651 50  0000 L CNN
 F 1 "Connector8_FTDI" H 8828 3560 50  0000 L CNN
-F 2 "" H 8475 4325 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical" H 8475 4325 50  0001 C CNN
 F 3 "" H 8475 4325 50  0001 C CNN
 	1    8500 3650
 	1    0    0    -1  
@@ -869,7 +869,7 @@ U 1 1 5FE8C355
 P 8700 5550
 F 0 "J2" H 8617 5327 50  0000 C CNN
 F 1 "V3V3-GND" H 8700 5350 50  0001 C CNN
-F 2 "" H 8700 5550 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 8700 5550 50  0001 C CNN
 F 3 "~" H 8700 5550 50  0001 C CNN
 	1    8700 5550
 	-1   0    0    1   
@@ -881,10 +881,10 @@ Wire Wire Line
 Wire Wire Line
 	9000 5450 9200 5450
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0101
 U 1 1 5FEAE107
 P 9200 5650
-F 0 "#PWR?" H 9200 5400 50  0001 C CNN
+F 0 "#PWR0101" H 9200 5400 50  0001 C CNN
 F 1 "GND" H 9205 5477 50  0000 C CNN
 F 2 "" H 9200 5650 50  0001 C CNN
 F 3 "" H 9200 5650 50  0001 C CNN
