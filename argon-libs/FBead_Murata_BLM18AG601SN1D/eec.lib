@@ -1,0 +1,41 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# Murata BLM18AG601SN1D
+#
+DEF BLM18AG601SN1D FB 0 40 Y Y 1 L N
+F0 "FB" 0 200 50 H V L CNN 
+F1 "BLM18AG601SN1D" 0 300 50 H V L CNN 
+F2 "Murata-BLM18-0.15-t0.8-0-0-*" 0 400 50 H I L CNN 
+F3 "https://www.murata.com/en-us/products/productdetail?partno=BLM18AG601SN1%23" 0 500 50 H I L CNN 
+F4 "500mA" 0 600 50 H I L CNN "RMS current"
+F5 "No" 0 700 50 H I L CNN "automotive"
+F6 "" 0 800 50 H I L CNN "automotive grade"
+F7 "FBead" 0 900 50 H I L CNN "category"
+F8 "Passive Components" 0 1000 50 H I L CNN "device class L1"
+F9 "EMI / RFI Components" 0 1100 50 H I L CNN "device class L2"
+F10 "Ferrite Beads and Chips" 0 1200 50 H I L CNN "device class L3"
+F11 "0.95mm" 0 1300 50 H I L CNN "height"
+F12 "600Ω @ 100MHz" 0 1400 50 H I L CNN "impedance at frequency"
+F13 "CAPC16080X80" 0 1500 50 H I L CNN "ipc land pattern name"
+F14 "Yes" 0 1600 50 H I L CNN "lead free"
+F15 "3e02a936bdb7af7d" 0 1700 50 H I L CNN "library id"
+F16 "Murata" 0 1800 50 H I L CNN "manufacturer"
+F17 "0603" 0 1900 50 H I L CNN "package"
+F18 "Yes" 0 2000 50 H I L CNN "rohs"
+F19 "0.38Ω" 0 2100 50 H I L CNN "series resistance"
+F20 "+125℃" 0 2200 50 H I L CNN "temperature range high"
+F21 "-55°C" 0 2300 50 H I L CNN "temperature range low"
+F22 "100MHz" 0 2400 50 H I L CNN "test frequency"
+F23 "25%" 0 2500 50 H I L CNN "tolerance"
+DRAW
+X 1 1 100 0 100 R 40 0 1 1 P 
+X 2 2 400 0 100 L 40 0 1 1 P 
+P 2 1 1 0 170 -30 280 80 N
+P 2 1 1 0 220 -80 330 30 N
+P 2 1 1 0 280 80 330 30 N
+P 2 1 1 0 220 -80 170 -30 N
+ENDDRAW
+ENDDEF
+#
+# End Library

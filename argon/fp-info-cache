@@ -1,4 +1,4 @@
-18639711372017351
+18642927679129094
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -50623,6 +50623,13 @@ One digit LED 7 segment SA39-11 SC39-11 SA39-12 SC39-12
 0
 10
 10
+FBead_Murata_BLM18AG601SN1D
+Murata-BLM18-0.15-t0.8-0-0-IPC_A
+
+
+0
+2
+2
 Ferrite_THT
 LairdTech_28C0236-0JW-10
 Ferrite, vertical, LairdTech 28C0236-0JW-10, https://assets.lairdtech.com/home/brandworld/files/28C0236-0JW-10.pdf, JW Miller core https://www.bourns.com/products/magnetic-products/j.w.-miller-through-hole-ferrite-beads-emi-filters
@@ -82053,6 +82060,13 @@ THT DIP DIL PDIP 2.54mm 7.62mm 300mil Socket
 0
 8
 8
+benzene
+DIP-16_W15.24mm
+24-lead though-hole mounted DIP package, row spacing 15.24 mm (600 mils)
+THT DIP DIL PDIP 2.54mm 15.24mm 600mil
+0
+16
+16
 benzene
 author
 
