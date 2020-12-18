@@ -18,6 +18,12 @@ K EEPROM memory Microwire
 F http://ww1.microchip.com/downloads/en/DeviceDoc/20001749K.pdf
 $ENDCMP
 #
+$CMP Ferrite_Bead
+D Ferrite bead
+K L ferrite bead inductor filter
+F ~
+$ENDCMP
+#
 $CMP SPI_FLASH
 D 32-Mbit, Wide Range Voltage SPI Serial Flash Memory, SOP-8
 K SPI 32Mbit 1.65V-3.6V
