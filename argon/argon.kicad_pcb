@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 17)
+    (drawings 18)
     (tracks 0)
     (zones 0)
     (modules 73)
@@ -18,7 +18,7 @@
     (34 B.Paste user hide)
     (35 F.Paste user hide)
     (36 B.SilkS user)
-    (37 F.SilkS user hide)
+    (37 F.SilkS user)
     (38 B.Mask user hide)
     (39 F.Mask user hide)
     (40 Dwgs.User user)
@@ -2421,7 +2421,7 @@
   )
 
   (module Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical (layer F.Cu) (tedit 59FED5CC) (tstamp 5FD68924)
-    (at 157.48 131.62 90)
+    (at 157.48 129.08 90)
     (descr "Through hole straight pin header, 1x08, 2.54mm pitch, single row")
     (tags "Through hole pin header THT 1x08 2.54mm single row")
     (path /5FDC8DF4)
@@ -2478,7 +2478,7 @@
   )
 
   (module Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical (layer F.Cu) (tedit 59FED5CC) (tstamp 5FD6C26A)
-    (at 157.48 129.08 90)
+    (at 157.48 131.62 90)
     (descr "Through hole straight pin header, 1x08, 2.54mm pitch, single row")
     (tags "Through hole pin header THT 1x08 2.54mm single row")
     (path /5FD86E45)
@@ -2530,7 +2530,7 @@
   )
 
   (module Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical (layer F.Cu) (tedit 59FED5CC) (tstamp 5FD688ED)
-    (at 124.46 131.62 90)
+    (at 124.46 129.08 90)
     (descr "Through hole straight pin header, 1x08, 2.54mm pitch, single row")
     (tags "Through hole pin header THT 1x08 2.54mm single row")
     (path /5FDC6D2C)
@@ -2587,7 +2587,7 @@
   )
 
   (module Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical (layer F.Cu) (tedit 59FED5CC) (tstamp 5FD6C22E)
-    (at 124.46 129.08 90)
+    (at 124.46 131.62 90)
     (descr "Through hole straight pin header, 1x08, 2.54mm pitch, single row")
     (tags "Through hole pin header THT 1x08 2.54mm single row")
     (path /5FD8726C)
@@ -3480,6 +3480,18 @@
     )
   )
 
+  (dimension 10.16 (width 0.15) (layer Dwgs.User)
+    (gr_text "10.160 mm" (at 183.672 123.952 270) (layer Dwgs.User)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (feature1 (pts (xy 172.72 129.032) (xy 182.958421 129.032)))
+    (feature2 (pts (xy 172.72 118.872) (xy 182.958421 118.872)))
+    (crossbar (pts (xy 182.372 118.872) (xy 182.372 129.032)))
+    (arrow1a (pts (xy 182.372 129.032) (xy 181.785579 127.905496)))
+    (arrow1b (pts (xy 182.372 129.032) (xy 182.958421 127.905496)))
+    (arrow2a (pts (xy 182.372 118.872) (xy 181.785579 119.998504)))
+    (arrow2b (pts (xy 182.372 118.872) (xy 182.958421 119.998504)))
+  )
   (dimension 20 (width 0.15) (layer Dwgs.User)
     (gr_text "20.000 mm" (at 140 101.7) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
