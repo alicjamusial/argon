@@ -2701,7 +2701,7 @@
   )
 
   (module Package_QFP:LQFP-64_10x10mm_P0.5mm (layer F.Cu) (tedit 5D9F72AF) (tstamp 5FD69C88)
-    (at 150 118)
+    (at 150 117.5)
     (descr "LQFP, 64 Pin (https://www.analog.com/media/en/technical-documentation/data-sheets/ad7606_7606-6_7606-4.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py")
     (tags "LQFP QFP")
     (path /5FC7546A)
