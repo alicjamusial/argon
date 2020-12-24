@@ -102,10 +102,10 @@ Wire Wire Line
 Wire Wire Line
 	5850 5650 5850 5900
 $Comp
-L Timer:LMC555xM U4
+L Timer:LMC555xM U2
 U 1 1 5FD3E29C
 P 5850 5250
-F 0 "U4" H 5550 5600 50  0000 C CNN
+F 0 "U2" H 5550 5600 50  0000 C CNN
 F 1 "LMC555" H 6050 5600 50  0000 C CNN
 F 2 "Package_SO:VSSOP-8_3.0x3.0mm_P0.65mm" H 6700 4850 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/lmc555.pdf" H 6700 4850 50  0001 C CNN
@@ -200,21 +200,21 @@ $EndComp
 Wire Wire Line
 	8000 5050 8000 5200
 $Comp
-L ArgonComponents:spi_flash_dip_16 U5
+L ArgonComponents:spi_flash_dip_16 U3
 U 1 1 5FE66CFF
 P 8500 2900
-F 0 "U5" H 8150 3350 50  0000 C CNN
+F 0 "U3" H 8150 3350 50  0000 C CNN
 F 1 "DIP-16" H 8750 2450 50  0000 C CNN
-F 2 "Package_SO:SOIC-16W_7.5x10.3mm_P1.27mm" H 8550 3500 50  0001 C CNN
+F 2 "benzene:DIP-16_W15.24mm" H 8550 3500 50  0001 C CNN
 F 3 "http://www.issi.com/WW/pdf/IS25LP(WP)256D.pdf" H 8550 2400 50  0001 C CNN
 	1    8500 2900
 	1    0    0    -1  
 $EndComp
 $Comp
-L ArgonComponents:Conn1 U3
+L ArgonComponents:Conn1 J2
 U 1 1 5FE8D895
 P 5650 2850
-F 0 "U3" V 5850 2850 50  0000 L CNN
+F 0 "J2" V 5850 2850 50  0000 L CNN
 F 1 "Conn1" V 5662 3038 50  0001 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 5550 3150 50  0001 C CNN
 F 3 "" H 5550 3150 50  0001 C CNN
@@ -263,10 +263,10 @@ F 3 "" H 3250 3550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ArgonComponents:Conn2 U2
+L ArgonComponents:Conn2 J1
 U 1 1 5FF5C69A
 P 5100 1500
-F 0 "U2" H 5150 1800 50  0000 R CNN
+F 0 "J1" H 5150 1800 50  0000 R CNN
 F 1 "Conn2" V 5050 1100 50  0001 R CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 5000 1800 50  0001 C CNN
 F 3 "" H 5000 1800 50  0001 C CNN
@@ -462,7 +462,7 @@ U 1 1 5FF67425
 P 8900 1700
 F 0 "C5" V 8850 1900 50  0000 C CNN
 F 1 "10uF" V 8850 1500 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 8938 1550 50  0001 C CNN
+F 2 "Capacitor_Tantalum_SMD:CP_EIA-3216-18_Kemet-A" H 8938 1550 50  0001 C CNN
 F 3 "~" H 8900 1700 50  0001 C CNN
 	1    8900 1700
 	0    -1   1    0   
@@ -511,7 +511,7 @@ U 1 1 5FE65DF9
 P 3250 2950
 F 0 "U1" H 2900 3300 50  0000 C CNN
 F 1 "DIP-8" H 3550 2600 50  0000 C CNN
-F 2 "Package_SO:SOIC-8_5.23x5.23mm_P1.27mm" H 3250 2950 50  0001 C CNN
+F 2 "benzene:DIP-8_W7.62mm_Socket" H 3250 2950 50  0001 C CNN
 F 3 "http://www.winbond.com/resource-files/w25q32jv%20revg%2003272018%20plus.pdf" H 3250 2950 50  0001 C CNN
 	1    3250 2950
 	1    0    0    -1  
@@ -547,7 +547,7 @@ U 1 1 5FFF736B
 P 3650 1850
 F 0 "C1" V 3600 2050 50  0000 C CNN
 F 1 "10uF" V 3600 1650 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 3688 1700 50  0001 C CNN
+F 2 "Capacitor_Tantalum_SMD:CP_EIA-3216-18_Kemet-A" H 3688 1700 50  0001 C CNN
 F 3 "~" H 3650 1850 50  0001 C CNN
 	1    3650 1850
 	0    -1   1    0   
