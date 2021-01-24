@@ -6,7 +6,7 @@ encoding utf-8
 Sheet 1 1
 Title "ARGON - flash reader/writer"
 Date "2020-12-01"
-Rev ""
+Rev "1.1"
 Comp "Author: Alicja"
 Comment1 ""
 Comment2 ""

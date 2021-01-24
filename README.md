@@ -23,9 +23,8 @@ TBD: link to flash programmer/reader software
 
 
 ### ◾ Known issues
-**Argon 1.0**
-- TX and RX LED indicators are designed incorrectly and they are turned on all the time, so they only turn themselves off when data is being transmitted (**will be fixed in 1.1**)
-- A board is a little bit too small and spacers/screws in the mounting holes cover the captions in the corners (**will be fixed in 1.1**)
+**Argon 1.1**
+- No known issues, but wasn't assembled yet.
 
 **Benzene 1.0**
 - Logo is too small and illegible (not very important, so won't be fixed by now)
@@ -42,18 +41,20 @@ Argon is meant to be used as SPI NOR flash reader & writer with:
 
 It can be also used standalone as USB<->UART/FIFO/I2C/SPI converter (all FTDI Mini Module functionalities in the nicer and more readable form).
 
+Note: all photos show Argon in version 1.0.
+
 
 ### ◾ Schematics and designs
 All of them can be found [in the releases section](https://github.com/alicjamusial/argon/releases) as KiCad files, gerber files, pdf and svg format.
 
-#### ▪️ Argon
-![schema](releases/argon-1.0/argon.svg)
-![board](releases/argon-1.0/argon-brd.svg)
-![3d_front](releases/argon-1.0/argon.png)
-![3d_back](releases/argon-1.0/argon_back.png)
-![3d](releases/argon-1.0/argon_3d.png)
+#### ▪️ Argon 1.1
+![schema](releases/argon-1.1/argon.svg)
+![board](releases/argon-1.1/argon-brd.svg)
+![3d_front](releases/argon-1.1/argon.png)
+![3d_back](releases/argon-1.1/argon_back.png)
+![3d](releases/argon-1.1/argon_3d.png)
 
-#### ▪️ Benzene
+#### ▪️ Benzene 1.0
 ![schema](releases/benzene-1.0/benzene.svg)
 ![board](releases/benzene-1.0/benzene-brd.svg)
 ![3d_front](releases/benzene-1.0/benzene_front.png)

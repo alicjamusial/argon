@@ -10,6 +10,10 @@
   )
 
   (page A4)
+  (title_block
+    (rev 1.1)
+  )
+
   (layers
     (0 F.Cu signal)
     (31 B.Cu signal)
@@ -6817,7 +6821,7 @@
   (segment (start 146.685 81.072499) (end 147.247 81.534) (width 0.8) (layer F.Cu) (net 50))
   (segment (start 147.247 81.534) (end 147.247 85.8045) (width 0.8) (layer F.Cu) (net 50))
 
-  (zone (net 1) (net_name GND) (layer B.Cu) (tstamp 5FE60BFE) (hatch edge 0.508)
+  (zone (net 1) (net_name GND) (layer B.Cu) (tstamp 600F2023) (hatch edge 0.508)
     (connect_pads (clearance 0.508))
     (min_thickness 0.254)
     (fill yes (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))
@@ -7616,7 +7620,7 @@
       )
     )
   )
-  (zone (net 17) (net_name "Net-(C1-Pad2)") (layer F.Cu) (tstamp 5FE60BFB) (hatch edge 0.508)
+  (zone (net 17) (net_name "Net-(C1-Pad2)") (layer F.Cu) (tstamp 600F2020) (hatch edge 0.508)
     (connect_pads (clearance 0.508))
     (min_thickness 0.254)
     (fill yes (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))
@@ -7673,7 +7677,7 @@
       )
     )
   )
-  (zone (net 17) (net_name "Net-(C1-Pad2)") (layer F.Cu) (tstamp 5FE60BF8) (hatch edge 0.508)
+  (zone (net 17) (net_name "Net-(C1-Pad2)") (layer F.Cu) (tstamp 600F201D) (hatch edge 0.508)
     (connect_pads (clearance 0.508))
     (min_thickness 0.254)
     (fill yes (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))
@@ -7702,7 +7706,7 @@
       )
     )
   )
-  (zone (net 17) (net_name "Net-(C1-Pad2)") (layer F.Cu) (tstamp 5FE60BF5) (hatch edge 0.508)
+  (zone (net 17) (net_name "Net-(C1-Pad2)") (layer F.Cu) (tstamp 600F201A) (hatch edge 0.508)
     (connect_pads (clearance 0.508))
     (min_thickness 0.254)
     (fill yes (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))
@@ -7734,7 +7738,7 @@
       )
     )
   )
-  (zone (net 1) (net_name GND) (layer F.Cu) (tstamp 5FE60BF2) (hatch edge 0.508)
+  (zone (net 1) (net_name GND) (layer F.Cu) (tstamp 600F2017) (hatch edge 0.508)
     (connect_pads (clearance 0.508))
     (min_thickness 0.254)
     (fill yes (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))
