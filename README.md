@@ -19,7 +19,7 @@ Argon works best with Benzene attached - they are designed to match each other (
 Both boards were designed using [KiCad 5.1.6](https://kicad-pcb.org/).
 
 ### ◾ Software
-TBD: link to flash programmer/reader software
+Argon software is available in [this repository](https://github.com/alicjamusial/argon-driver).
 
 
 ### ◾ Known issues
