@@ -16,7 +16,7 @@ Version 1.0 of Benzene is available [in the releases section](https://github.com
 <br>
 Argon works best with Benzene attached - they are designed to match each other (you can put two Benzene boards on top of the Argon). Argon can be also used separately as USB<->UART/FIFO/I2C/SPI converter (similar to FTDI Mini Module). 
 
-Both boards were designed using [KiCad 5.1.6](https://kicad-pcb.org/).
+Both boards were designed using [KiCad 5.1.6](https://kicad.org/).
 
 ### ◾ Software
 Argon software is available in [this repository](https://github.com/alicjamusial/argon-driver).
